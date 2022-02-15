@@ -30,10 +30,15 @@ void show_double(double x) {
 	show_bytes((byte_pointer) &x, sizeof(double));
 }
 
+void show_long(long x) {
+	show_bytes((byte_pointer) &x, sizeof(long));
+}
+
 int main() {
 	show_int(0x12345678);
 	show_float(0.123456789);
 	show_short(0x1234);
 	show_double(0.123456789012345);
+	show_long(0x12345678);
     return 0;
 }
