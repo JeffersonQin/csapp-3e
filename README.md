@@ -8,7 +8,6 @@
 ## 书籍旁注
 
 * [第二章 P48 补码相反数位级表示的无符号数之和的意义证明](https://gyrojeff.top/index.php/archives/补码相反数位级表示的无符号数之和的意义证明/)
-* [第二章 P65 用模数加法的逆元来说明补码加法构成阿贝尔群](https://gyrojeff.top/index.php/archives/用模数加法的逆元来说明补码加法构成阿贝尔群/)
 * [第二章 P67 补码与无符号乘法数位级表示相同的理解](https://gyrojeff.top/index.php/archives/补码与无符号乘法数位级表示相同的理解/)
 * [第二章 P70 补码的位移与乘法的等价性证明](https://gyrojeff.top/index.php/archives/补码的位移与乘法的等价性证明/)
 * [第二章 P73 偏置技术向上取整的通俗理解](https://gyrojeff.top/index.php/archives/偏置技术向上取整的通俗理解/)
