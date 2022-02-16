@@ -6,6 +6,10 @@ int is_big_endian() {
 	return !(*p);
 }
 
+int is_little_endian() {
+	return !is_big_endian();
+}
+
 int main() {
 	printf("%d\n", is_big_endian());
 	return 0;
