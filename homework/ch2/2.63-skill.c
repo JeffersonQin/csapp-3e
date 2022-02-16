@@ -11,7 +11,8 @@ unsigned srl(unsigned x, int k) {
 	/* Perform shift arithmetically */
 	unsigned xsra = (int) x >> k;
 	int w = sizeof(int) << 3;
-	unsigned mask = !!k * ((1 << (w - k)) - 1) - !k;
+	// unsigned mask = !!k * ((1 << (w - k)) - 1) - !k;
+	unsigned mask = (2 << (w - k - 1)) - 1;
 	return xsra & mask;
 }
 
